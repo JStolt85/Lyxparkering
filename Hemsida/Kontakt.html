@@ -10,22 +10,24 @@
 	<body>
 		<div class="header">
 		<nav>
+			<center><h1>
 				<a href="Index.html"><p1>Startsida</p1></a>
 				<a href="Boka_parkering.html">Boka</a>
 				<a href="Vara_ovriga_tjanster.html">Våra övriga tjänster</a>
 				<a href="Hitta_till_oss.html">Hitta hit</a>
 				<a href="Kontakt.html">Kontakta oss</a>
 				<a href="Information_om_sajten.html">Information om sajten</a>
+			</center></h1>
 		</nav>
 		</div>
 		
 		<div class="leftcol"></div>
+		<div class="rightcol"></div>
 		<div class="content"><img src="Bilder/Bild2.jpg">
 		<h1>Kontakta oss</h1>
-		</div>
-		<div class="rightcol"></div>
+
 <div class="container">
-  <form action="action_page.php">
+
 
     <label for="fname">Förnamn</label>
     <input type="text" id="fname" name="firstname" placeholder="Förnamn">
@@ -33,13 +35,17 @@
     <label for="lname">Efternamn</label>
     <input type="text" id="lname" name="lastname" placeholder="Efternamn">
 
-    <label for="subject">Skriv</label>
+    <label for="mail">Mailadress</label>
+    <input type="text" id="mail" name="mailadress" placeholder="Skriv din mailadress här">
+
+    <label for="subject">Meddelande</label>
     <textarea id="subject" name="subject" placeholder="Skriv nått" style="height:200px"></textarea>
 
-    <input type="submit" value="Skicka">
+    <input type="submit" value="Skicka" onclick="alert('Tack för ditt meddelande')">
 
   </form>
 </div> 
+		</div>
 	</body>
 
 </html>
