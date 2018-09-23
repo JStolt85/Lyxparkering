@@ -51,8 +51,26 @@ input[type=submit]:hover {
     padding: 20px;
 } 
 
-ul {list-style-type: none; background-color: #800000; margin: 0px; padding: 0px;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #800000;
+}
 
-li a {display: block; text-decoration: none;}
+li {
+    float: left;
+}
 
-li a: hover {background-color: #800000;}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #00008B;
+}
